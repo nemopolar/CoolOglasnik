@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 
+  timestamp: 2014-03-17 13:12:14
+  expiry_date: 2014-03-17 13:12:14
+  sold: false
+  rating: 9.99
+  description: MyText
+  price: 9.99
+  title: MyString
+
+two:
+  user_id: 
+  timestamp: 2014-03-17 13:12:14
+  expiry_date: 2014-03-17 13:12:14
+  sold: false
+  rating: 9.99
+  description: MyText
+  price: 9.99
+  title: MyString

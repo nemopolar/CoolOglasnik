@@ -11,7 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140317115723) do
+ActiveRecord::Schema.define(:version => 20140317121214) do
+
+  create_table "ads", :force => true do |t|
+    t.integer  "user_id"
+    t.datetime "timestamp"
+    t.datetime "expiry_date"
+    t.boolean  "sold"
+    t.decimal  "rating",      :precision => 10, :scale => 0
+    t.text     "description"
+    t.decimal  "price",       :precision => 10, :scale => 0
+    t.string   "title"
+    t.datetime "created_at",                                 :null => false
+    t.datetime "updated_at",                                 :null => false
+  end
 
   create_table "users", :force => true do |t|
     t.string   "username"
